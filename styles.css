@@ -220,13 +220,13 @@ h2, h3 {
      transform: translate(400%, 0%)
   } */
 
- .des-box, ch-name {
+ .des-box, ch-name { 
     width: 90%;
     background-color: #DDC2E7;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-    background-size: 4000px 600px; 
+    background-size: 4000px 60000px; 
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -244,4 +244,8 @@ h2, h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+ }
+
+ .footer { 
+    text-align: center
  }
