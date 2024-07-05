@@ -1,3 +1,247 @@
 /* This is a comment in css step 176 is going to show you how to have html and css together (paste the line of code in html*/
-body {background-color: #ADD8E6}
-h1, h2, img {text-align: center}
+body {background-color: #C5E4F2}
+h1, h2, h3 {
+    text-align: center
+}
+
+
+/* h2, h3, p, li { 
+    font-family: "Playwrite Deutschland Grundschrift", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: larger;
+} */
+
+h2, h3, p, li  {
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+h2, h3 {
+    font-weight: 700
+}
+
+.heading-two {
+    font-size: smaller 
+}
+
+.button-looks{
+    border-radius: 20px;
+    background-color: #D6A1EB; 
+    border-color: white ;
+    color: white 
+}
+
+  
+
+.heading { 
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: larger;
+}
+
+
+
+/* NOT NEEDED */
+/*.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50px;
+  }*/
+
+
+.heading { 
+    width: 40%;
+    background-color: #89CFF0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-size: 800px 100px; 
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(0, 50%);  }
+
+.alice-image {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(400%, 0%);  }
+
+.cheshire-cat-image {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(740%, -340%);
+}
+
+.characters-img {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    transform: translate(740, -340%)
+}
+
+.about-img {
+    border-radius: 20px;
+    transform: translate(230%, 0%)
+}
+
+.button {
+   border: none;
+   color: #D6A1EB;
+   font-size: 16px;
+}
+
+
+
+
+/* NOT NEEDED */
+/*.topnav {
+    background-color: #89CFF0;
+    overflow: hidden;
+}
+/* NOT NEEDED */
+/* .topnav a { 
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}*/
+
+.topnav {
+    background-color: #89CFF0;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: x-small;
+  }
+
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #DDC2E7;
+    color: purple;
+  }
+  
+  .topnav a.active {
+    background-color: #D6A1EB;
+    color: white;
+  }
+
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    width: 1000px;
+    color:#DDC2E7;
+    height: 30px
+  }
+
+  .search-bar {
+    color:#DDC2E7;
+    height: 30px;
+  }
+
+  .thoughts { 
+    width: 1000px;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    color:#DDC2E7;
+    height: 30px
+  }
+
+  .cha-form-sub{
+    border-radius: 20px;
+    background-color: #D6A1EB; 
+    border-color: white ;
+    color: white;
+    height: 32px;
+    width: 100px
+  }
+
+  .lc-img {
+    border-radius: 20px;
+    transform: translate(420%, -80%)
+  }
+
+  .lc-description { 
+    transform: translate(2%, 0%)
+  }
+
+  .oxford {
+    border-radius: 20px;
+    transform: translate(430%, -80%)
+  }
+
+  .tree-image {
+    transform: translate(0%, -70%)
+  }
+ 
+.audio {
+    transform: translate(0%, -70%)
+}
+
+
+/* .characters-img {
+     transform: translate(400%, 0%)
+  } */
+
+ .des-box, ch-name {
+    width: 90%;
+    background-color: #DDC2E7;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-size: 4000px 600px; 
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .lewis-carroll {
+    width: 90%;
+    background-color: #DDC2E7;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-size: 4000px 600px; 
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
